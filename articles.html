@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Articles — Motheo Ngwetjana</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav id="main-nav"></nav>
+    <div id="menu-overlay"></div>
+
+    <!-- Hero -->
+    <section class="page-hero">
+        <div class="page-hero-bg articles-hero-bg"></div>
+        <div class="page-hero-content">
+            <p class="hero-label">Writing</p>
+            <h1>Articles<br><em>& Essays</em></h1>
+        </div>
+    </section>
+
+    <!-- Filter Bar -->
+    <section class="articles-filter">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="city">City</button>
+        <button class="filter-btn" data-filter="culture">Culture</button>
+    </section>
+
+    <!-- Articles Grid -->
+    <section class="articles-grid">
+
+        <a href="article-jhb.html" class="article-card reveal" data-category="city">
+            <div class="article-card-img">
+                <img src="images/Johannesburg Skyline.jpg" alt="Johannesburg Skyline">
+            </div>
+            <div class="article-card-info">
+                <span class="article-tag">City</span>
+                <h3>I #HEART JHB</h3>
+                <p>A guide and love letter to the heart of South Africa.</p>
+                <span class="article-meta">27 May 2026 · 5 min read</span>
+            </div>
+        </a>
+
+        <a href="article-Museum.html" class="article-card reveal" data-category="culture">
+            <div class="article-card-img">
+                <img src="images/Wits Art Museum2025.jpg" alt="Esther Mahlangu exhibition">
+            </div>
+            <div class="article-card-info">
+                <span class="article-tag">Culture</span>
+                <h3>Wits Cultural Gems</h3>
+                <p>From the Art Museum to the Planetarium and Origins Centre</p>
+                <span class="article-meta">19 March 2026 · 5 min read</span>
+            </div>
+        </a>
+
+        <a href="article-wits-nature.html" class="article-card reveal" data-category="city">
+            <div class="article-card-img">
+                <img src="images/Great Hall Jacaranda.jpg" alt="Great Hall">
+            </div>
+            <div class="article-card-info">
+                <span class="article-tag">City</span>
+                <h3>2 Years of Exploring Wits' Natural Surroundings</h3>
+                <p>Two years of wandering the green pockets of campus.</p>
+                <span class="article-meta">05 April 2026 · 4 min read</span>
+            </div>
+        </a>
+
+     
+    </section>
+
+    <footer id="main-footer"></footer>
+    <script src="js/main.js"></script>
+</body>
+</html>

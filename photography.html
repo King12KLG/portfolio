@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photography — Motheo Ngwetjana</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav id="main-nav"></nav>
+    <div id="menu-overlay"></div>
+
+    <section class="page-hero">
+        <div class="page-hero-bg" style="background-image: url('images/Limpopo 2.jpg')"></div>
+        <div class="page-hero-content">
+            <p class="hero-label">Photography</p>
+            <h1>Visual<br><em>Work</em></h1>
+        </div>
+    </section>
+
+    <section class="intro">
+        <div class="intro-inner reveal">
+            <p>Photography taught me to slow down and look. These are the moments I chose to keep.</p>
+        </div>
+    </section>
+
+    <!-- Photo Filter -->
+    <section class="articles-filter">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="nature">Nature</button>
+        <button class="filter-btn" data-filter="city">City</button>
+        <button class="filter-btn" data-filter="wits">Wits</button>
+    </section>
+
+    <!-- Photo Grid — Claudio Silvestrin style -->
+    <section class="photo-grid" id="photo-grid">
+
+        <div class="photo-item reveal" data-category="nature">
+            <img src="images/Limpopo 1.jpg" alt="Limpopo">
+            <div class="photo-overlay"><span>Limpopo</span></div>
+        </div>
+
+        <div class="photo-item reveal" data-category="nature">
+            <img src="images/Limpopo 2.jpg" alt="Limpopo">
+            <div class="photo-overlay"><span>Limpopo</span></div>
+        </div>
+
+        <div class="photo-item reveal" data-category="nature">
+            <img src="images/Limpopo 3.jpg" alt="Limpopo">
+            <div class="photo-overlay"><span>Limpopo</span></div>
+        </div>
+
+        <div class="photo-item reveal" data-category="nature">
+            <img src="images/Limpopo 4.jpg" alt="Limpopo">
+            <div class="photo-overlay"><span>Limpopo</span></div>
+        </div>
+
+        <div class="photo-item reveal" data-category="nature">
+            <img src="images/Jackal Creek 2.jpg" alt="Jackal Creek">
+            <div class="photo-overlay"><span>Jackal Creek</span></div>
+        </div>
+
+        <div class="photo-item reveal" data-category="nature">
+            <img src="images/Jackal Creek 3.jpg" alt="Jackal Creek">
+            <div class="photo-overlay"><span>Jackal Creek</span></div>
+        </div>
+
+        <div class="photo-item reveal" data-category="nature">
+            <img src="images/Jackal Creek 4.jpg" alt="Jackal Creek">
+            <div class="photo-overlay"><span>Jackal Creek</span></div>
+        </div>
+
+        <div class="photo-item reveal" data-category="city">
+            <img src="images/Johannesburg Skyline.jpg" alt="Johannesburg Skyline">
+            <div class="photo-overlay"><span>Johannesburg</span></div>
+        </div>
+
+        <div class="photo-item reveal" data-category="city">
+            <img src="images/Johannesburg Skyline Night.jpg" alt="Johannesburg Skyline">
+            <div class="photo-overlay"><span>Johannesburg</span></div>
+        </div>
+
+        <div class="photo-item reveal" data-category="city">
+            <img src="images/Nelson Mandela Square 1.jpg" alt="Nelson Mandela Square">
+            <div class="photo-overlay"><span>Nelson Mandela Square</span></div>
+        </div>
+
+        <div class="photo-item reveal" data-category="city">
+            <img src="images/Rosebank Mall.jpg" alt="Rosebank Mall">
+            <div class="photo-overlay"><span>Rosebank Mall</span></div>
+        </div>
+
+        <div class="photo-item reveal" data-category="wits">
+            <img src="images/Wits Planetarium 2.jpg" alt="Inside the Wits Planetarium">
+            <div class="photo-overlay"><span>Wits Planetarium</span></div>
+        </div>
+
+        <div class="photo-item reveal" data-category="wits">
+            <img src="images/Wits Origin.jpg" alt="Origins Centre">
+            <div class="photo-overlay"><span>Origins Centre</span></div>
+        </div>
+
+        <div class="photo-item reveal" data-category="wits">
+            <img src="images/Wits Art Aug ‘24 5.jpg" alt="Gallery view">
+            <div class="photo-overlay"><span>Wits Art Museum</span></div>
+        </div>
+
+        <div class="photo-item reveal" data-category="wits">
+            <img src="images/Wits Art Aug ‘24 2.jpg" alt="Karel Nel exhibition">
+            <div class="photo-overlay"><span>Wits Art Museum</span></div>
+        </div>
+
+        <div class="photo-item reveal" data-category="wits">
+            <img src="images/Great Hall Jacaranda.jpg" alt="Great Hall">
+            <div class="photo-overlay"><span>Great Hall</span></div>
+        </div>
+
+        <div class="photo-item reveal" data-category="wits">
+            <img src="images/Wits East.jpg" alt="Wits East Campus">
+            <div class="photo-overlay"><span>East Campus</span></div>
+        </div>
+
+        <div class="photo-item reveal" data-category="wits">
+            <img src="images/Oppenheimer Life Sciences.jpg" alt="Oppenheimer">
+            <div class="photo-overlay"><span>Oppenheimer</span></div>
+        </div>
+
+        <div class="photo-item reveal" data-category="wits">
+            <img src="images/William Cullen Library.jpg" alt="Library">
+            <div class="photo-overlay"><span>William Cullen Library</span></div>
+        </div>
+
+        <div class="photo-item reveal" data-category="wits">
+            <img src="images/Suzuki Jimmy Jacaranda.jpg" alt="Jacaranda">
+            <div class="photo-overlay"><span>Jacaranda Season</span></div>
+        </div>
+
+        <div class="photo-item reveal" data-category="wits">
+            <img src="images/Wits West Campus.jpg" alt="West Campus">
+            <div class="photo-overlay"><span>West Campus</span></div>
+        </div>
+
+        <div class="photo-item reveal" data-category="wits">
+            <img src="images/Tower of Light.jpg" alt="Tower of Light">
+            <div class="photo-overlay"><span>Tower of Light</span></div>
+        </div>
+
+        <div class="photo-item reveal" data-category="wits">
+            <img src="images/Library Lawns Wits.jpg" alt="Library Lawns">
+            <div class="photo-overlay"><span>Library Lawns</span></div>
+        </div>
+
+        <div class="photo-item reveal" data-category="wits">
+            <img src="images/Law Library.jpg" alt="Law Library">
+            <div class="photo-overlay"><span>Law Library</span></div>
+        </div>
+
+        <div class="photo-item reveal" data-category="wits">
+            <img src="images/Barnato Lake.jpg" alt="Barnato Lake">
+            <div class="photo-overlay"><span>Barnato Lake</span></div>
+        </div>
+
+        <div class="photo-item reveal" data-category="wits">
+            <img src="images/Jacadranda West Campus.jpg" alt="Jacaranda West">
+            <div class="photo-overlay"><span>West Campus Jacarandas</span></div>
+        </div>
+
+    </section>
+
+    <!-- Lightbox -->
+    <div id="lightbox" class="lightbox">
+        <button class="lightbox-close" id="lightbox-close">×</button>
+        <button class="lightbox-prev" id="lightbox-prev">‹</button>
+        <button class="lightbox-next" id="lightbox-next">›</button>
+        <div class="lightbox-img-wrap">
+            <img id="lightbox-img" src="" alt="">
+            <p id="lightbox-caption"></p>
+        </div>
+    </div>
+
+    <footer id="main-footer"></footer>
+    <script src="js/main.js"></script>
+</body>
+</html>

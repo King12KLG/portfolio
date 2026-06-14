@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Games — Motheo Ngwetjana</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav id="main-nav"></nav>
+    <div id="menu-overlay"></div>
+
+    <section class="page-hero">
+        <div class="page-hero-bg" style="background-image: url('images/Games 2.jpg')"></div>
+        <div class="page-hero-content">
+            <p class="hero-label">Game Development</p>
+            <h1>Building<br><em>Worlds</em></h1>
+        </div>
+    </section>
+
+    <section class="intro">
+        <div class="intro-inner reveal">
+            <p>I am drawn to games because they are the only medium where the audience becomes the author. These are the worlds I have built.</p>
+        </div>
+    </section>
+
+    <section class="articles-filter">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="sport">Sport</button>
+        <button class="filter-btn" data-filter="arcade">Arcade</button>
+    </section>
+
+    <section class="games-grid">
+
+        <div class="game-card reveal" data-category="sport">
+            <div class="game-card-img">
+                <img src="images/Games 2.jpg" alt="Champions of Tennis">
+            </div>
+            <div class="game-card-info">
+                <div class="game-card-header">
+                    <div>
+                        <span class="article-tag">Sport · Unity</span>
+                        <h3>Champions of Tennis</h3>
+                    </div>
+                    <button class="download-btn">Download</button>
+                </div>
+                <p>Champions of Tennis is a Unity-built tennis game inspired by the mechanics and rhythm of real tennis matches. Players compete across sets, serving and rallying against an opponent. Born from my obsession with the sport and my curiosity about what it feels like to play something you love inside a screen.</p>
+                <div class="game-tags">
+                    <span>Unity</span>
+                    <span>C#</span>
+                    <span>2026</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="game-card reveal" data-category="arcade">
+            <div class="game-card-img">
+                <img src="images/lumberjack gold 1.jpg" alt="Lumberjack Gold">
+            </div>
+            <div class="game-card-info">
+                <div class="game-card-header">
+                    <div>
+                        <span class="article-tag">Arcade · Unity</span>
+                        <h3>Lumberjack Gold</h3>
+                    </div>
+                    <button class="download-btn">Download</button>
+                </div>
+                <p>Lumberjack Gold is an arcade-style game that takes inspiration from old-school gameplay mechanics. Players chop, dodge and score in a fast-paced environment. This project reflects my interest in reconfiguring classic arcade experiences with a fresh visual approach.</p>
+                <div class="game-tags">
+                    <span>Unity</span>
+                    <span>C#</span>
+                    <span>2025</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="game-card reveal" data-category="arcade">
+            <div class="game-card-img">
+                <img src="images/pongbuild 1.jpg" alt="Classic Pong">
+            </div>
+            <div class="game-card-info">
+                <div class="game-card-header">
+                    <div>
+                        <span class="article-tag">Arcade · Unity</span>
+                        <h3>Classic Pong</h3>
+                    </div>
+                    <button class="download-btn">Download</button>
+                </div>
+                <p>A faithful recreation of the original Pong arcade game, rebuilt in Unity. This was an exercise in understanding the fundamentals of game physics, collision detection, and score systems. Sometimes going back to the beginning is the most instructive thing a developer can do.</p>
+                <div class="game-tags">
+                    <span>Unity</span>
+                    <span>C#</span>
+                    <span>2024</span>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="games-philosophy reveal">
+        <div class="games-philosophy-inner">
+            <span class="about-label">On Building Games</span>
+            <p>"I have an interest in old school arcade games and I like to re-configure them. There is something honest about a game that gives you one goal and gets out of your way."</p>
+        </div>
+    </section>
+
+    <footer id="main-footer"></footer>
+    <script src="js/main.js"></script>
+</body>
+</html>

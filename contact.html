@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact — Motheo Ngwetjana</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav id="main-nav"></nav>
+    <div id="menu-overlay"></div>
+
+    <section class="page-hero">
+        <div class="page-hero-bg" style="background-color: var(--blue)"></div>
+        <div class="page-hero-content">
+            <p class="hero-label">Get In Touch</p>
+            <h1>Contact<br><em>Me</em></h1>
+        </div>
+    </section>
+
+    <section class="contact-section">
+
+        <!-- Contact Info -->
+        <div class="contact-info reveal">
+            <span class="about-label">Direct</span>
+            <div class="contact-links">
+                <a href="mailto:motheo.ngwetjana@gmail.com" class="contact-link">
+                    <span class="contact-link-label">Personal</span>
+                    <span class="contact-link-value">motheo.ngwetjana@gmail.com</span>
+                </a>
+                <a href="mailto:2839634@students.wits.ac.za" class="contact-link">
+                    <span class="contact-link-label">University</span>
+                    <span class="contact-link-value">2839634@students.wits.ac.za</span>
+                </a>
+            </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="contact-form-wrap reveal">
+            <span class="about-label">Send A Message</span>
+            <form class="contact-form" id="contact-form" novalidate>
+
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" placeholder="Your name" autocomplete="off">
+                    <span class="form-error" id="name-error"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Your email" autocomplete="off">
+                    <span class="form-error" id="email-error"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" rows="6" placeholder="Your message"></textarea>
+                    <span class="form-error" id="message-error"></span>
+                </div>
+
+                <button type="submit" class="form-submit">Send Message</button>
+                <p class="form-success" id="form-success">Message sent. Thank you.</p>
+
+            </form>
+        </div>
+
+    </section>
+
+    <footer id="main-footer"></footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
